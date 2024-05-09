@@ -1,0 +1,36 @@
+.pop {
+  height: 250px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8rem;
+  background-color: rgb(196, 186, 172);
+  position: relative;
+  top: 50%;
+  transition: 3s;
+}
+.pop1 {
+  height: 50px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(89, 0, 0);
+}
+.bac {
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: rgba(0, 0, 0, 0.61);
+  width: 100%;
+  transition: 3s;
+  backdrop-filter: blur(5px);
+  background-size: cover;
+  z-index: 44;
+}
+
+.bot {
+  position: absolute;
+  right: 45%;
+}
